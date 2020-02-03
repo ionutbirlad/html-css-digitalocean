@@ -188,7 +188,6 @@ header button{
 
 .brands .second{
   height: 60px;
-  object-fit: cover;
 }
 
 .brands .second .col-md-2{
@@ -237,13 +236,53 @@ header button{
   background-position: center;
 }
 
-
-
-
-
-
-
-
-
-
+.row.third .col-md-4{
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 700;
+}
 /* fine sezione BRANDS */
+
+/* sezione FEATURES */
+.features{
+  padding: 100px 0;
+}
+
+.features .row.first{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.features .row.first h1{
+  font-weight: 700;
+  color: #031b4e;
+}
+
+.features .row.first h2{
+  font-size: 20px;
+  color: #4e5f83;
+  line-height: 25px;
+}
+
+.features .row.second .col-md-2{
+  text-align: right;
+}
+
+.features .row.second ul{
+  border-bottom: none;
+}
+
+.features .row.second li{
+  display: block;
+  width: 100%;
+}
+
+.features .row.second a{
+  color: #031b4e;
+}
+
+
+
+
+
+/*fine sezione FEATURES */
