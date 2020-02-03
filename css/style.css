@@ -405,3 +405,80 @@ input[name="r"]{
   color: #0069ff;
 }
 /*fine sezione FEATURES */
+
+/* sezione PRESENTATION */
+.presentation{
+  background-color: #f3f5f9;
+  padding: 100px 0;
+}
+
+.presentation .row.first .col-md-8{
+  text-align: center;
+}
+
+.presentation .row.first{
+  padding-bottom: 40px;
+}
+
+.presentation .row.first h2{
+  font-weight: 700;
+  color: #031b4e;
+}
+
+.presentation .row.first p{
+  font-size: 20px;
+  color: #4e5f83;
+  line-height: 25px;
+}
+
+.presentation .row.second .slider{
+  width: 800px;
+  height: 477.65px;
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/screenshot-create-kubernetes-cluster-4a930955.jpg");
+  margin: 40px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: slide 15s infinite;
+  transition: 0.3s;
+  /* opacity: 0; */
+  border-radius: 5px;
+}
+
+.presentation .row.second .slider::after{
+  content: "Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized applications";
+  position: relative;
+  display: block;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: slide 15s infinite;
+}
+
+@keyframes slide {
+  20%{
+    content: "Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized applications";
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/screenshot-create-kubernetes-cluster-4a930955.jpg");
+  }
+  40%{
+    content: "Choose the machine type that’s right for your app – and  spin up in 55 seconds or less.";
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/screenshot-create-droplet-941311f7.jpg");
+  }
+  60%{
+    content: "Quickly and easily provision a high-performance database cluster.";
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/screenshot-database-c59bd221.png");
+  }
+  80%{
+    content: "Store assets, media, and more using Spaces object storage with a built-in CDN.";
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/screenshot-upload-to-space-47275215.jpg");
+  }
+  20%{
+    content: "Easily organize, manage, and update your infrastructure using Projects and Teams.";
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/screenshot-projects-and-doctl-3db0054e.jpg");
+  }
+}
+
+
+
+
+
+/*fine sezione PRESENTATION */
