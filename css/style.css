@@ -62,3 +62,37 @@ header button{
   right: 0;
 }
 /* fine HEADER */
+
+/* JUMBOTRON */
+.jumbo{
+  background-color: #0049ff;
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jumbo .text-left{
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+.jumbo .text-left h1{
+  font-size: 60px;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.jumbo .text-left h2{
+  font-size: 25px;
+  font-weight: lighter;
+  line-height: 35px;
+  opacity: 0.9;
+}
+
+
+
+
+
+
+/* fine JUMBOTRON */
