@@ -1,3 +1,4 @@
+/* stilizzazione generale bottoni */
 button{
   background-color: #ffffff;
   border: 1px solid #0069ff;
@@ -12,3 +13,47 @@ button:hover{
   color: #ffffff;
   background-color: #0069ff;
 }
+/* fine stilizzazione generale bottoni */
+
+/* HEADER */
+header{
+  /* background-color: #fbc531; */
+  height: 100px;
+}
+
+header .col-md-2,
+header .col-md-8{
+  position: relative;
+  height: 100px;
+}
+
+#logo{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.UnifiedNav-logoSVG {
+    fill: #0069ff;
+}
+
+.navbar-default{
+  background-color: inherit;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#menu a{
+  color: #031b4e;
+  font-weight: 700;
+}
+
+header button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+/* fine HEADER */
