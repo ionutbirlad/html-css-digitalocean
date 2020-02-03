@@ -265,23 +265,9 @@ header button{
 }
 
 .features .row.second .col-md-2{
-  text-align: right;
+  /* padding-left: 50px; */
 }
 
-.features .row.second ul{
-  border-bottom: none;
-}
-
-.features .row.second li{
-  display: block;
-  width: 100%;
-}
-
-.features .row.second a{
-  color: #031b4e;
-}
-
-/* prova */
 .slidershow{
   width: 700px;
   height: 400px;
@@ -290,10 +276,7 @@ header button{
 
 .navigation{
   position: relative;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  /* display: flex; */
+  right: 0;
 }
 
 .bar{
@@ -312,6 +295,7 @@ header button{
   line-height: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #031b4e;
 }
 
 #scale::after{
@@ -320,6 +304,7 @@ header button{
   line-height: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #031b4e;
 }
 
 #store::after{
@@ -328,6 +313,7 @@ header button{
   line-height: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #031b4e;
 }
 
 #secure::after{
@@ -336,6 +322,7 @@ header button{
   line-height: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #031b4e;
 }
 
 #monitor::after{
@@ -344,6 +331,7 @@ header button{
   line-height: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #031b4e;
 }
 
 .bar:hover{
@@ -390,11 +378,31 @@ input[name="r"]{
   margin-left: -80%;
 }
 
+/* .features .slide div[class*="col-"]{
+  text-align: left;
+} */
+
+.features .slide .content{
+  padding-right: 50px;
+  padding-left: 40px;
+}
+
+.features .slide .content h4{
+  color: #031b4e;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+}
+
+.features .slide .content p{
+  letter-spacing: 1px;
+  color: #596383;
+}
 
 
 
 
-/* fine prova */
+
 
 
 
