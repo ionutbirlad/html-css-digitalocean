@@ -48,6 +48,11 @@ header .col-md-8{
 #menu a{
   color: #031b4e;
   font-weight: 700;
+  transition: 0.2s;
+}
+
+#menu a:hover{
+  color: #0069ff;
 }
 
 header button{
