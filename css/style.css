@@ -170,10 +170,80 @@ header button{
   margin-top: 30px;
   display: inline-block;
 }
-
-
-
-
-
-
 /* fine JUMBOTRON */
+
+/* sezione BRANDS */
+.brands{
+  background-color: #f3f5f9;
+  padding: 50px 0;
+}
+
+.brands .first h3{
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #939eb5;
+}
+
+.brands .second{
+  height: 60px;
+  object-fit: cover;
+}
+
+.brands .second .col-md-2{
+  height: 60px;
+}
+
+.brands #docker{
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.brands #gitlab{
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.brands #slack{
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.brands #hashicorp{
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.brands #wework{
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.brands #splunk{
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* fine sezione BRANDS */
