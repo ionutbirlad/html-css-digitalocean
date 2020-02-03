@@ -385,13 +385,14 @@ input[name="r"]{
 .features .slide .content{
   padding-right: 50px;
   padding-left: 40px;
+  padding-bottom: 20px;
 }
 
 .features .slide .content h4{
   color: #031b4e;
   font-weight: 600;
   letter-spacing: 1px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .features .slide .content p{
@@ -399,13 +400,8 @@ input[name="r"]{
   color: #596383;
 }
 
-
-
-
-
-
-
-
-
-
+.features .slide .content i{
+  font-size: 35px;
+  color: #0069ff;
+}
 /*fine sezione FEATURES */
