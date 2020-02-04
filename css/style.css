@@ -78,6 +78,11 @@ header button{
   padding: 80px 0;
 }
 
+.jumbo .text-center{
+  color: #ffffff;
+  padding: 80px 0;
+}
+
 .jumbo .text-left h1{
   font-size: 60px;
   font-weight: 700;
@@ -85,6 +90,19 @@ header button{
 }
 
 .jumbo .text-left h2{
+  font-size: 25px;
+  font-weight: lighter;
+  line-height: 35px;
+  opacity: 0.9;
+}
+
+.jumbo .text-center h1{
+  font-size: 60px;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.jumbo .text-center h2{
   font-size: 25px;
   font-weight: lighter;
   line-height: 35px;
@@ -156,10 +174,9 @@ header button{
 
 #form #btn-sign-up-1 i,
 #form #btn-sign-up-2 i{
-  position: absolute;
-  left: 10px;
+  position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  padding-right: 10px;
 }
 
 #form #btn-sign-up-2{
@@ -176,6 +193,10 @@ header button{
 .brands{
   background-color: #f3f5f9;
   padding: 50px 0;
+}
+
+.brands [class*="col-"]{
+  text-align: center;
 }
 
 .brands .first h3{
