@@ -642,9 +642,12 @@ input[name="r"]{
 
 
 .window .slidershow{
-  width: 700px;
-  height: 400px;
+  width: 736px;
+  height: 360px;
   overflow: hidden;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid rgba(3,27,78,.1);
 }
 .window .middle{
   margin: 0 auto;
@@ -703,6 +706,27 @@ input[name="r"]{
 .window .slide .content{
   padding: 30px;
   text-align: center;
+}
+
+.window .row.two .slide .content img{
+  width: 200px;
+  padding-bottom: 40px;
+}
+
+.window .row.two .slide .content p{
+  color: rgba(3,27,78,.7);
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.window .row.two .slide .content small{
+  color: rgba(3,27,78,.7);
+}
+
+.window .row.two .slide .content span{
+  display: block;
+  padding-top: 20px;
 }
 
 
