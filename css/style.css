@@ -790,18 +790,68 @@ footer .row.one .col-md-2{
 
 footer .row.one .col-md-2 h5{
   color: #ffffff;
+  font-size: 18px;
 }
 
 footer .row.one .col-md-2 ul{
   list-style: none;
-  margin-left: 0;
+  padding-left: 0;
+}
+
+footer .row.one .col-md-2 li{
+  line-height: 28px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 footer .row.one .col-md-2 a{
   list-style: none;
   margin-left: 0;
+  text-decoration: none;
+  color: #808794;
 }
 
+footer .row.one .col-md-2 a:hover{
+  color: #ffffff;
+}
+
+footer .row.two{
+  padding-top: 30px;
+}
+
+footer .row.two .col-md-4{
+  height: 50px;
+  position: relative;
+}
+
+footer .row.two p{
+  left: 90px;
+  color: #808794;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 15px;
+}
+
+footer .row.two span{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: block;
+  transform: translateY(-50%);
+  color: #808794;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+footer .row.two .text-right i{
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+footer .row.two .text-right i:hover{
+  color: #ffffff;
+}
 
 
 
