@@ -549,11 +549,60 @@ input[name="r"]{
   padding: 100px 0;
 }
 
+.speed .row.one{
+  padding-bottom: 40px;
+}
 
+.speed .row.one .col-md-8{
+  text-align: center;
+}
 
+.speed .row.one h2{
+  font-weight: 700;
+  font-size: 43px;
+  color: #ffffff;
+}
 
+.speed .row.two{
+  color: #ffffff;
+}
 
+.speed .row.two .content{
+  text-align: left;
+}
 
+.speed .row.two .tbl-elmn{
+  border-bottom: 1px solid #ffffff60;
+  padding: 10px 0;
+  font-size: 14px;
+}
 
+.speed .row.two .tbl-elmn .one{
+  width: 10%;
+  display: inline-block;
+  font-weight: 700;
+}
 
+.speed .row.two .tbl-elmn .two{
+  width: 70%;
+  display: inline-block;
+  padding-left: 35px;
+  color: #ffffff80;
+}
+
+.speed .row.two .tbl-elmn .three{
+  width: 20%;
+  display: inline-block;
+}
+
+.speed .row.two .tbl-elmn .three a{
+  transition: 0.2s;
+  text-decoration: none;
+  color: #07d7d2;
+  font-weight: 700;
+}
+
+.speed .row.two .tbl-elmn .three a:hover{
+  color: #065fe6;
+}
 /* fine sezione SPEED */
