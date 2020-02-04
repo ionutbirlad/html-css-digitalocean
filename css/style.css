@@ -461,7 +461,7 @@ input[name="r"]{
   left: 50%;
   transform: translateX(-50%);
   animation: slide_2 15s infinite;
-}
+  }
 
 @keyframes slide {
   20%{
@@ -499,3 +499,28 @@ input[name="r"]{
   }
 }
 /*fine sezione PRESENTATION */
+
+/* sezione CARDS */
+.cards{
+  padding: 100px 0;
+}
+
+.cards .row.one .col-md-4{
+  text-align: center;
+}
+
+.cards .row.one{
+  padding-bottom: 40px;
+}
+
+.cards .row.one h2{
+  font-weight: 700;
+  color: #031b4e;
+}
+
+
+
+
+
+
+/* fine sezione CARDS */
