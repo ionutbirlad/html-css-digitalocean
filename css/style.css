@@ -577,6 +577,10 @@ input[name="r"]{
   font-size: 14px;
 }
 
+.speed .row.two #sb{
+  border-bottom: none;
+}
+
 .speed .row.two .tbl-elmn .one{
   width: 10%;
   display: inline-block;
