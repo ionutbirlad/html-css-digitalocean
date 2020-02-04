@@ -183,6 +183,11 @@ main{
   position: relative;
 }
 
+#form #btn-sign-up-1:hover,
+#form #btn-sign-up-2:hover{
+  background-color: #d5e4f7;
+}
+
 #form #btn-sign-up-1 i,
 #form #btn-sign-up-2 i{
   position: relative;
@@ -460,9 +465,9 @@ input[name="r"]{
   color: #596383;
 }
 
-.features .slide .content i{
+.features .slide .content svg{
   font-size: 35px;
-  color: #0069ff;
+  /* color: #0069ff; */
 }
 /*fine sezione FEATURES */
 
@@ -911,13 +916,4 @@ footer .row.two .text-right i{
 footer .row.two .text-right i:hover{
   color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
 /* fine FOOTER */
