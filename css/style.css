@@ -727,7 +727,21 @@ input[name="r"]{
 .window .row.two .slide .content span{
   display: block;
   padding-top: 20px;
+  font-weight: 700;
+  text-decoration: none;
 }
+
+.window .row.two .slide .content span a{
+  text-decoration: none;
+  color: #0069ff;
+}
+
+.window .row.two .slide .content span a:hover{
+  text-decoration: none;
+  color: #075fe6;
+}
+
+
 
 
 
