@@ -442,43 +442,60 @@ input[name="r"]{
   transition: 0.3s;
   /* opacity: 0; */
   border-radius: 5px;
+  position: relative;
 }
+
+/* .presentation #one,
+.presentation #two,
+.presentation #three,
+.presentation #four,
+.presentation #five{
+  animation: slide 15s infinite;
+} */
 
 .presentation .row.second .slider::after{
   content: "Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized applications";
-  position: relative;
+  position: absolute;
   display: block;
   top: 110%;
   left: 50%;
   transform: translateX(-50%);
-  animation: slide 15s infinite;
+  animation: slide_2 15s infinite;
 }
 
 @keyframes slide {
   20%{
-    content: "Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized applications";
     background-image: url("https://www.digitalocean.com/assets/media/homepage/screenshot-create-kubernetes-cluster-4a930955.jpg");
   }
   40%{
-    content: "Choose the machine type that’s right for your app – and  spin up in 55 seconds or less.";
     background-image: url("https://www.digitalocean.com/assets/media/homepage/screenshot-create-droplet-941311f7.jpg");
   }
   60%{
-    content: "Quickly and easily provision a high-performance database cluster.";
     background-image: url("https://www.digitalocean.com/assets/media/homepage/screenshot-database-c59bd221.png");
   }
   80%{
-    content: "Store assets, media, and more using Spaces object storage with a built-in CDN.";
     background-image: url("https://www.digitalocean.com/assets/media/homepage/screenshot-upload-to-space-47275215.jpg");
   }
   20%{
-    content: "Easily organize, manage, and update your infrastructure using Projects and Teams.";
     background-image: url("https://www.digitalocean.com/assets/media/homepage/screenshot-projects-and-doctl-3db0054e.jpg");
   }
 }
 
-
-
-
-
+@keyframes slide_2 {
+  20%{
+    content: "Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized applications";
+  }
+  40%{
+    content: "Choose the machine type that’s right for your app – and  spin up in 55 seconds or less.";
+  }
+  60%{
+    content: "Quickly and easily provision a high-performance database cluster.";
+  }
+  80%{
+    content: "Store assets, media, and more using Spaces object storage with a built-in CDN.";
+  }
+  20%{
+    content: "Easily organize, manage, and update your infrastructure using Projects and Teams.";
+  }
+}
 /*fine sezione PRESENTATION */
