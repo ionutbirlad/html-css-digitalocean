@@ -518,9 +518,20 @@ input[name="r"]{
   color: #031b4e;
 }
 
+.cards .row.two h4{
+  color: #031b4e;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
 
+.cards .row.two p{
+  letter-spacing: 1px;
+  color: #596383;
+}
 
-
-
-
+.cards .row.two a{
+  font-weight: 700;
+  color: #0069ff;
+}
 /* fine sezione CARDS */
