@@ -740,13 +740,33 @@ input[name="r"]{
   text-decoration: none;
   color: #075fe6;
 }
-
-
-
-
-
-
-
-
-
 /*fine  sezione WINDOW */
+
+/* sezione CALL TO ACTION */
+.cta{
+  padding: 50px 0;
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta .col-md-4{
+  text-align: center;
+}
+
+.cta .col-md-4 p{
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.cta .col-md-4 button{
+  padding: 10px 20px;
+  width: 75%;
+}
+
+.cta .col-md-4 button:hover{
+  background: #ffffff90;
+  color: #0069ff;
+}
+/* fine sezione CALL TO ACTION */
