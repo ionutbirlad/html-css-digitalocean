@@ -19,6 +19,13 @@ button:hover{
 header{
   /* background-color: #fbc531; */
   height: 100px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  z-index: 9999;
 }
 
 header .col-md-2,
@@ -64,6 +71,10 @@ header button{
 /* fine HEADER */
 
 /* JUMBOTRON */
+main{
+  padding-top: 100px;
+}
+
 .jumbo{
   background-color: #0049ff;
   background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
